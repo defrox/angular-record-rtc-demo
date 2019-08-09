@@ -28,7 +28,7 @@ export class AppComponent implements OnDestroy {
   audioStream;
   videoStream: MediaStream;
   audioConf = { audio: true}
-  videoConf = { video: { facingMode:"user" }, audio: true}
+  videoConf = { video: { facingMode:"user", width: 320 }, audio: true}
 
   constructor(
     private ref: ChangeDetectorRef,
