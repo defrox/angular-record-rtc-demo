@@ -117,7 +117,6 @@ export class AppComponent implements OnDestroy {
   clearVideoRecordedData() {
     this.videoBlobUrl = null;
     this.video.srcObject = null;
-    this.video.src = null;
     this.video.controls = false;
     this.ref.detectChanges();
   }
